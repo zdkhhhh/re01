@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 确保footer标签始终位于页面底部 */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .content {
+      min-height: calc(100vh - 80px);
+      /* 减去footer的高度 */
+      margin-bottom: 80px;
+      /* 为footer留出空间 */
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 40px;
+      font-size: 12px;
+      width: 100%;
+      height: 80px;
+      /* footer的高度 */
+      position: absolute;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <div style="background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px;">
+      <img src="/images/b.jpg" alt="张弛
+      " width="80px" height="80px">
+    </div>
+    <div style="max-width: 700px;
+    margin: 30px auto;
+    padding: 15px;
+    line-height: 1.7;">
+      <p>这是我的第一个个人网站，花了很多时间。一开始我有点不相信自己能够做一个网站，毕竟我从小就觉得做网站是一件很难的事情。但是当自己动手去做时却没有那么难，而且网站成功运行的那一刻我感到特别开心。</p>
+      <p>我是从b站上看了一个叫康文昌的up主的视频，了解了编程的本质，跟着他的视频一步步做出了这个网站。我把他的视频链接贴在底部，感兴趣的话可以去看看。</p>
+    </div>
+  </div>
+  <footer>
+    <p>网页教程</p>
+    <a
+      href="https://www.bilibili.com/video/BV1hY411j7UM?spm_id_from=333.788.videopod.sections&vd_source=8355f2a96cd6c2e88ecd203a62a6d0b5">友情链接</a>
+  </footer>
+</body>
+
+</html>
